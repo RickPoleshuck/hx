@@ -46,8 +46,14 @@
 #define BS '\010'
 #define SP '\040'
 
-void wputch();
+static void 
+wputch (WINDOW wind, int c)
+{
+        waddch ( wind, c );
+        wrefresh ( wind );
+}
 
+void
 hxgetfld ( wind, str, vfunct, mfunct, max )
 WINDOW *wind;
 char *str;
@@ -94,14 +100,5 @@ int max;
                         break;
                 }
         }
-}
-
-static void
-wputch ( wind, c )
-WINDOW *wind;
-int c;
-{
-        waddch ( wind, c );
-        wrefresh ( wind );
 }
 

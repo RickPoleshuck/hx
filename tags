@@ -1,0 +1,100 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/rick/work/hx/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ASC	hx.h	/^#define ASC /;"	d
+ASC_COL0	hx.h	/^#define ASC_COL0 /;"	d
+ASC_MID	hx.h	/^#define ASC_MID /;"	d
+BS	hx.h	/^#define BS /;"	d
+BS	hxgetfld.c	/^#define BS /;"	d	file:
+CHARS_ROW	hx.h	/^#define CHARS_ROW /;"	d
+DATA	hx.h	/^#define DATA /;"	d
+ESC	hx.h	/^#define ESC /;"	d
+FALSE	hx.h	/^# define FALSE /;"	d
+FALSE	hxgetfld.c	/^# define FALSE /;"	d	file:
+HEAD	hx.h	/^#define HEAD /;"	d
+HEX	hx.h	/^#define HEX /;"	d
+HEX_COL0	hx.h	/^#define HEX_COL0 /;"	d
+HEX_MID	hx.h	/^#define HEX_MID /;"	d
+MAXROWS	hx.h	/^#define MAXROWS /;"	d
+MENU	hx.h	/^#define MENU /;"	d
+SP	hxgetfld.c	/^#define SP /;"	d	file:
+SPACE	hx.h	/^#define SPACE /;"	d
+TRUE	hx.h	/^# define TRUE /;"	d
+TRUE	hxgetfld.c	/^# define TRUE /;"	d	file:
+ascrepl	hxdisp.c	/^ascrepl ( c, buffer )$/;"	f
+btoh	hxfline.c	/^btoh( str, number )$/;"	f	file:
+buffer	hxhard.c	/^        char buffer[CHARS_ROW];$/;"	v	typeref:typename:char[]
+child	hxhard.c	/^static int child;$/;"	v	typeref:typename:int	file:
+commwin	hx.c	/^       *commwin;    \/* windows *\/$/;"	v	typeref:typename:WINDOW *
+datawin	hx.c	/^       *datawin,$/;"	v	typeref:typename:WINDOW *
+date	hxhard.c	/^        char *date;$/;"	v	typeref:typename:char *
+displine	hxdisp.c	/^displine ()$/;"	f
+disppage	hxdisp.c	/^disppage(fname)$/;"	f
+done	hx.c	/^done()$/;"	f	typeref:typename:void
+doneflag	hx.c	/^char doneflag = FALSE;          \/* signal caught flag *\/$/;"	v	typeref:typename:char
+fp	hx.c	/^FILE *fdopen(), *fp = 0;$/;"	v	typeref:typename:FILE *
+fpos	hx.c	/^long fpos;                      \/* global position if file *\/$/;"	v	typeref:typename:long
+headwin	hx.c	/^       *headwin,$/;"	v	typeref:typename:WINDOW *
+hex	hx.c	/^hex (file)$/;"	f
+hexrepl	hxdisp.c	/^hexrepl ( c, buffer )$/;"	f
+homepos	hx.c	/^long homepos;                   \/* position of home character on screen *\/$/;"	v	typeref:typename:long
+htos	hxdisp.c	/^htos(out,in,len)$/;"	f
+hxcut	hxcut.c	/^hxcut( start, length, output )$/;"	f
+hxcutmn	hxcut.c	/^hxcutmn()$/;"	f
+hxfline	hxfline.c	/^hxfline ( address, binary, output, len )$/;"	f
+hxfsect	hxfline.c	/^hxfsect (byte)$/;"	f
+hxgetfld	hxgetfld.c	/^hxgetfld ( wind, str, vfunct, mfunct, max )$/;"	f
+hxgetfn	hx.c	/^hxgetfn(fname)$/;"	f
+hxhardmn	hxhard.c	/^hxhardmn(fname)$/;"	f
+hxhhead	hxhard.c	/^hxhhead ( page, sector, fname, date, printfp )$/;"	f
+hxopen	hx.c	/^hxopen( fname )$/;"	f
+hxpclose	hxhard.c	/^hxpclose(ptr)$/;"	f
+hxpopen	hxhard.c	/^hxpopen(cmd)$/;"	f
+isbsc	hx.c	/^isbsc ( ch )$/;"	f
+isbsce	hx.c	/^isbsce ( ch )$/;"	f
+isds	hx.c	/^isds( ch )$/;"	f
+ishex	hx.c	/^ishex( ch )$/;"	f
+isnum	hx.c	/^isnum( ch )$/;"	f
+isprint	hx.c	/^isprint( ch )$/;"	f
+lbuffer	hxhard.c	/^        char lbuffer[CHARS_ROW];$/;"	v	typeref:typename:char[]
+line	hxhard.c	/^        int line = 0;$/;"	v	typeref:typename:int
+ltoh	hxfline.c	/^ltoh( char* str, long number )$/;"	f	typeref:typename:void	file:
+main	hx.c	/^main(argc,argv)$/;"	f
+menu1	hx.c	/^char menu1[]=$/;"	v	typeref:typename:char[]
+menu2	hx.c	/^char menu2[]=$/;"	v	typeref:typename:char[]
+menu3	hx.c	/^char menu3[]=$/;"	v	typeref:typename:char[]
+menuwin	hx.c	/^WINDOW *menuwin,$/;"	v	typeref:typename:WINDOW *
+mvwdeleteln	hx.h	/^#define mvwdeleteln(/;"	d
+noseek	hx.c	/^char noseek;                    \/* This not a regular file - no seeks allowd *\/$/;"	v	typeref:typename:char
+nread	hxhard.c	/^        int nread;$/;"	v	typeref:typename:int
+oktoexit	hx.c	/^char oktoexit = TRUE;           \/* should we exit when interrupt received *\/$/;"	v	typeref:typename:char
+oktorepeat	hx.c	/^char oktorepeat = FALSE;        \/* ok to repeat search flag *\/$/;"	v	typeref:typename:char
+oldname	hxdisp.c	/^static char oldname[61] = { 0};$/;"	v	typeref:typename:char[61]	file:
+outbuf	hxhard.c	/^        char outbuf[81];$/;"	v	typeref:typename:char[81]
+page	hxhard.c	/^        int page = 0;$/;"	v	typeref:typename:int
+patch	hxpatch.c	/^patch(fname)$/;"	f
+patch1	hx.c	/^char patch1[]=$/;"	v	typeref:typename:char[]
+patch2	hx.c	/^char patch2[]=$/;"	v	typeref:typename:char[]
+pchmov	hxpatch.c	/^pchmov ( c, mode )$/;"	f
+printfp	hxhard.c	/^        FILE *printfp;$/;"	v	typeref:typename:FILE *
+progname	hx.c	/^char *progname;$/;"	v	typeref:typename:char *
+putx	hxdisp.c	/^putx ( c )      \/* put a byte in hex format and append a blank *\/$/;"	f
+readonly	hx.c	/^char readonly;                  \/* open readonly flag *\/$/;"	v	typeref:typename:char
+rmcomm	hx.c	/^char rmcomm = FALSE;            \/* remove command window flag *\/$/;"	v	typeref:typename:char
+same	hxhard.c	/^	int same=FALSE;$/;"	v	typeref:typename:int
+srchasc	hxpatch.c	/^srchasc(str,len,fname)$/;"	f
+statbuf	hxhard.c	/^        struct stat statbuf;$/;"	v	typeref:struct:stat
+termhx	hx.c	/^struct termio termhx;$/;"	v	typeref:struct:termio
+termorig	hx.c	/^struct termio termorig;$/;"	v	typeref:struct:termio
+toupper	hx.c	/^toupper( ch )$/;"	f
+wcommwin	hxdisp.c	/^wcommwin ( str )$/;"	f
+whatstring	hx.c	/^char whatstring[] = "\\$/;"	v	typeref:typename:char[]
+wputch	hxgetfld.c	/^wputch ( wind, c )$/;"	f	file:

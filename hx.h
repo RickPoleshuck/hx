@@ -1,9 +1,12 @@
 /*      @(#) hx.h - definitions and declarations for hx.c */
 #include <curses.h>
 #include <signal.h>
+#include <ctype.h>
+#include <string.h>
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <fcntl.h>
+#include <stdlib.h>
 #ifdef DOS
 # include <stdio.h>
 #endif
@@ -70,3 +73,8 @@ extern char menu1[], menu2[], menu3[], patch1[], patch2[]; /* menus */
 # define TRUE 1
 # define FALSE 0
 #endif
+
+// hx function definitions
+static void ltoh(char* str, long number);
+static void btoh(char* str, int number);
+static void wputch (WINDOW wind, int c);

@@ -67,10 +67,8 @@ int len;
 /*
         btoh - converts byte to 2 byte hex with leading 0 and trailing space
 */
-static
-btoh( str, number )
-register char *str;
-register unsigned int number;
+static void
+btoh(char* str, int number)
 {
         register unsigned int c;
 
@@ -93,10 +91,8 @@ register unsigned int number;
 /*
         ltoh - converts long to 8 byte hex with leading 0's
 */
-static
-ltoh( str, number )
-register char *str;
-register unsigned long number;
+static void
+ltoh( char* str, long number )
 {
         register int i;
         register unsigned int c;
@@ -113,6 +109,7 @@ register unsigned long number;
         }
 }
 
+void
 hxfsect (byte)
 long byte;
 {

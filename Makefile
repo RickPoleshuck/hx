@@ -1,6 +1,7 @@
 # @(#) hx.mk - makefile for hx program 
 CC=cc
 CFLAGS=-M3 -O
+CFLAGS=-g
 LIBS=-lcurses
 LDFLAGS=-s
 OFILES=hx.o\
