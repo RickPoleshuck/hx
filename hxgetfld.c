@@ -47,19 +47,14 @@
 #define SP '\040'
 
 static void 
-wputch (WINDOW wind, int c)
+wputch (WINDOW* wind, int c)
 {
         waddch ( wind, c );
         wrefresh ( wind );
 }
 
 void
-hxgetfld ( wind, str, vfunct, mfunct, max )
-WINDOW *wind;
-char *str;
-int (*vfunct)();
-int (*mfunct)();
-int max;
+hxgetfld (WINDOW* wind, char* str, int (*vfunct)(), int (*mfunct)(), int max)
 {
         char c = 0;              /* first time through must not be BS */
         char *sptr = str;
@@ -101,4 +96,3 @@ int max;
                 }
         }
 }
-

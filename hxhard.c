@@ -251,7 +251,6 @@ HX 1.3                                                            Page: %6.6d\n"
 
 }
 
-extern int execl(), fork(), pipe(), close(), fcntl();
 static int child;
 #include <errno.h>
 
